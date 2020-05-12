@@ -27,10 +27,10 @@ function getIP() {
 }
 function checkIP($cip){
   $err = "<span style='color:#2EB82E;'>UNKNOWN</span>";
-  $flag = "<span style='color:#CC2900;'>VPN&nbsp;(FLAGGED IP)</span>";
+  $flag = "<span style='color:#2EB82E;'>VPN&nbsp;(KNOWN IP)</span>";
   $may = "<span style='color:#2EB82E;'>PROBABLY VPN&nbsp(NEW IP)</span>";
   $yes = "<span style='color:#2EB82E;'>VPN (CLEAN IP)</span>";
-  $no = "<span style='color:#2EB82E;'>NO VPN</span>";
+  $no = "<span style='color:#CC2900;'>NO VPN</span>";
   $fix = "<span style='color:#E6E600;'>ERROR</span>";
   $res = @file_get_contents("http://check.getipintel.net/check.php?ip={$cip}&contact=info@d34d.co&flags=m");
   switch (TRUE) {
