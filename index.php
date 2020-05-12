@@ -209,21 +209,23 @@ $info = getGeo($ip);
 
           <section id="two" class="wrapper alt style2">
             <section class="spotlight">
-              <div class="image"><img src="images/a1.jpg" alt="" /></div><div class="content">
+              <div class="image"><img src="images/a1.jpg" alt="" /></div>
+		<div class="content">
                 <h2>Open Source</h2>
-                <p>This page is fully open source on GitHub!</br>
+                <p><a href="https://github.com/yeuna92/d34d.co">This page is fully open source on GitHub!</a></br>
                 No sneaky tracking or analytics here!</br>
                 Because your privacy is more important!</p>
-              </div>
+              	</div>
             </section>
             <section class="spotlight">
-              <div class="image"><img src="images/a2.jpg" alt="" /></div><div class="content">
+              <div class="image"><img src="images/a2.jpg" alt="" /></div>
+		<div class="content">
                 <h2>Version 1.1</h2>
                 <p>Major cosmetics overhaul obviously =0<br />
                 Minor backend changes to accommodate styles.<br />
                 Expanded some functions with bug fixes.<br />
                 Fully responsive mobile HTML5/CSS3 layout.</p>
-              </div>
+              	</div>
             </section>
           </section>
 
