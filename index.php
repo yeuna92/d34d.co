@@ -210,9 +210,10 @@ $info = getGeo($ip);
           <section id="two" class="wrapper alt style2">
             <section class="spotlight">
               <div class="image"><img src="images/a1.jpg" alt="" /></div><div class="content">
-                <h2>Secure</h2>
-                <p>We NEVER store any generated info! This data comes from an api!<br /><br />
-                We NEVER use analytics! Because your privacy is more important.</p>
+                <h2>Open Source</h2>
+                <p>This page is fully open source on GitHub!</br>
+                No sneaky tracking or analytics here!</br>
+                Because your privacy is more important!</p>
               </div>
             </section>
             <section class="spotlight">
